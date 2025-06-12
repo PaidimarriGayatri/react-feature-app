@@ -1,0 +1,41 @@
+.auth-info {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #28a745;
+  text-align: center;
+}
+
+.auth-link-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.auth-link-button:hover {
+  text-decoration: underline;
+}
+.auth-link-button {
+  margin-top: 10px;
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.auth-link-button:hover {
+  text-decoration: underline;
+}
+
+.auth-container form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
