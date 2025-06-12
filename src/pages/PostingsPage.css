@@ -1,0 +1,38 @@
+.postings-container {
+  transition: padding-left 0.3s ease;
+}
+
+.postings-container.collapsed {
+  padding-left: 0;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.postings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.posting-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 280px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.center-text{
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
