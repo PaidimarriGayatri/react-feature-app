@@ -1,0 +1,83 @@
+.sidebar {
+  background: #2f3542;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-shrink: 0;
+  transition: width 0.3s ease;
+}
+
+/* sidebar will be min of atleat 60 to 70px  and max of 260 to 350px */
+.sidebar.expanded {
+  width: 260px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar-toggle {
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.sidebar-toggle.collapsed {
+  align-self: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.menu-item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  /* background-color: red; */
+}
+
+.menu-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item.active {
+  color: yellow;
+}
+
+.submenu {
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.submenu .menu-item {
+  color: #ccc;
+  padding: 6px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.submenu .menu-item.active {
+  color: yellow;
+}
+
+.menu-item.opened {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: rgb(2, 210, 141); */
+}
